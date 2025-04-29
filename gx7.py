@@ -10,9 +10,9 @@ from pyrogram.types import Message
 
 # --------------------[ CONFIGURATION ]----------------------
 API_ID = 26512850  # replace with your API ID
-API_HASH = "a51477d8c5205718ddec7dd922f36e57"
-BOT_TOKEN = "7448467310:AAFDMLHAUvZxcMc36A2TnMQ0z87P9yA6eME"
-OWNER_ID = 7792814115  # replace with your Telegram user ID
+API_HASH = "c60ebbfdbf49d845e66ebf2407feadd3"
+BOT_TOKEN = "7956357352:AAFRgKDURSeEhUJuh5_spl3j8cAstbpZ9rM"
+OWNER_ID = 7916223212  # replace with your Telegram user ID
 START_TIME = time.time()
 
 # --------------------[ FILE PATHS ]----------------------
@@ -30,7 +30,7 @@ DEFAULT_THREADS = 200
 DEFAULT_MAX_TIME = 240
 DATA_PER_SECOND = 0.5  # MB per second
 
-app = Client("spidy_bot", api_id=API_ID, api_hash=API_HASH, bot_token=BOT_TOKEN)
+app = Client("bagkdog1", api_id=API_ID, api_hash=API_HASH, bot_token=BOT_TOKEN)
 
 # --------------------[ UTILS ]----------------------
 def load_json(file):
