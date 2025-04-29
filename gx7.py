@@ -20,7 +20,7 @@ USERS_FILE = "users.json"
 ADMINS_FILE = "admins.json"
 KEYS_FILE = "keys.json"
 CONFIG_FILE = "config.json"
-BINARY_PATH = "./spidy"
+BINARY_PATH = "./gx7"
 
 # --------------------[ Attack Config ]----------------------
 ALLOWED_PORT_RANGE = range(10003, 30000)
