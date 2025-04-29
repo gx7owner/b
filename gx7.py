@@ -10,7 +10,7 @@ from pyrogram.types import Message
 
 # --------------------[ CONFIGURATION ]----------------------
 API_ID = 26512850  # replace with your API ID
-API_HASH = "c60ebbfdbf49d845e66ebf2407feadd3"
+API_HASH = "a51477d8c5205718ddec7dd922f36e57"
 BOT_TOKEN = "7956357352:AAFRgKDURSeEhUJuh5_spl3j8cAstbpZ9rM"
 OWNER_ID = 7916223212  # replace with your Telegram user ID
 START_TIME = time.time()
@@ -30,7 +30,7 @@ DEFAULT_THREADS = 200
 DEFAULT_MAX_TIME = 240
 DATA_PER_SECOND = 0.5  # MB per second
 
-app = Client("bagkdog1", api_id=API_ID, api_hash=API_HASH, bot_token=BOT_TOKEN)
+app = Client("spidy_bot", api_id=API_ID, api_hash=API_HASH, bot_token=BOT_TOKEN)
 
 # --------------------[ UTILS ]----------------------
 def load_json(file):
@@ -68,7 +68,7 @@ def log_user(message):
         save_json(USERS_FILE, users)
 
 def generate_key(amount, custom=None):
-    prefix = f"Gx7{amount}"
+    prefix = f"BGMIxDDOS{amount}"
     random_part = custom if custom else ''.join(random.choices(string.ascii_letters + string.digits, k=6))
     key = prefix + random_part
     keys = load_json(KEYS_FILE)
