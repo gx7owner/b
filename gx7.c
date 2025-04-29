@@ -150,4 +150,4 @@ int main(int argc, char *argv[]) {
     return 0;
 }
 
-//      gcc spidy.c -o spidy -pthread
+//      gcc gx7.c -o gx7 -pthread
